@@ -134,7 +134,7 @@ nav.r-nav {
     padding: 20px 0px;
     transition: 0.5s all;
 }
-  
+
 nav.r-nav.stickyadd {
     background: #fff !important;
     padding: 15px 0;
@@ -146,8 +146,12 @@ nav.stickyadd .navbar-brand {
     font-size: 30px;
 }
 
-nav.stickyadd .navbar-nav .nav-link {
+nav.navbar-nav .nav-link {
     color: #000 !important;
+}
+
+nav .active-link {
+    color: #007bff !important;
 }
 
 /* About */
